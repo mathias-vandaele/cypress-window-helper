@@ -3,7 +3,7 @@
     "start-server-and-test": "^1.14.0"
   },
   "name": "cypress-window-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cypress-window-helper aims to switch and interact with pop-up windows opened within the UI",
   "main": "index.js",
   "scripts": {
