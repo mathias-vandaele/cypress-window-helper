@@ -9,7 +9,9 @@
   "scripts": {
     "start": "http-server server -p 5523",
     "cypress:open": "cypress open",
-    "open:server:test": "start-server-and-test start http://127.0.0.1:5523 cypress:open"
+    "cypress:run": "cypress run -b chrome --headless",
+    "open:server:test": "start-server-and-test start http://127.0.0.1:5523 cypress:open",
+    "run:server:test": "start-server-and-test start http://127.0.0.1:5523 cypress:run"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
   },
   "homepage": "https://github.com/mathias-vandaele/cypress-window-helper#readme",
   "dependencies": {
-    "cypress": "^9.3.1"
+    "cypress": "^9.3.1",
+    "prettier": "^2.5.1"
   }
 }
