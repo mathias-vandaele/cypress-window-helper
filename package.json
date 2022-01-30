@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "start-server-and-test": "^1.14.0"
+  },
+  "name": "cypress-window-helper",
+  "version": "1.0.0",
+  "description": "cypress-window-helper aims to switch and interact with pop-up windows opened within the UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server server -p 5523",
+    "cypress:open": "cypress open",
+    "open:server:test": "start-server-and-test start http://127.0.0.1:5523 cypress:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathias-vandaele/cypress-window-helper.git"
+  },
+  "keywords": [
+    "cypress",
+    "window",
+    "windows",
+    "helper"
+  ],
+  "author": "mathias vandaele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathias-vandaele/cypress-window-helper/issues"
+  },
+  "homepage": "https://github.com/mathias-vandaele/cypress-window-helper#readme",
+  "dependencies": {
+    "cypress": "^9.3.1"
+  }
+}
