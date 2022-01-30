@@ -1,5 +1,7 @@
 # cypress-window-helper
 
+`v1.0.1`
+
 cypress-window-helper aims to switch and interact with pop-up windows opened within the UI.
 
 This adds 3 custom commands that will help you catching pop-up and/or new tabs, interaction with them and switch back to the main window.
@@ -68,8 +70,13 @@ This plugin has been made cause those features were critical to me.
 I cannot guarantee it will work for all the pop-up and browser (tested in chrome), but I can try to improve it, just open an issue or a PR.
 
 ## Contributors
+
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/mathias-vandaele"><img src="https://avatars.githubusercontent.com/u/1155592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Jones</b></sub></a><br /><a href="https://github.com/mathias-vandaele" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mathias-vandaele"><img src="https://avatars.githubusercontent.com/u/26595978?v=4" width="100px;" alt=""/><br /><sub><b>Mathias Vandaele</b></sub></a><br /><a href="https://github.com/mathias-vandaele" title="Code">💻</a></td>
   </tr>
 </table>
+
+## License
+
+ISC
