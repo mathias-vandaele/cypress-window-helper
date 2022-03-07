@@ -43,7 +43,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-cypress/videos/
+cypress/videos/test/
 cypress/screenshots/
 
 # TypeScript v1 declaration files
