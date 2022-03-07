@@ -1,6 +1,6 @@
 # cypress-window-helper
 
-`v1.0.1`
+`v1.0.8`
 
 cypress-window-helper aims to switch and interact with pop-up windows opened within the UI.
 
@@ -27,7 +27,7 @@ npm install --save-dev cypress-window-helper
 
 ## Usage
 
-`cypress-fill-command` extends Cypress' `cy` command.
+`cypress--window-helper` extends Cypress' `cy` command.
 Add this line to your project's `cypress/support/commands.js`:
 
 ```javascript

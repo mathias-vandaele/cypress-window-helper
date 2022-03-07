@@ -1,6 +1,6 @@
 let availableWindows = {}
 
-Cypress.Commands.add('StubAndSuscribeToNextWindow', (givenName) => {
+Cypress.Commands.add('stubAndSubscribeToNextWindow', (givenName) => {
     if(!availableWindows['main']){
         availableWindows['main'] = cy.state('window')
     }
